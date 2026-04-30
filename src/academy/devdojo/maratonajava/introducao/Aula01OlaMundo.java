@@ -11,7 +11,7 @@ public class Aula01OlaMundo {
     linhas
      */
     public static void main (String[] args){
-        System.out.println("Melina te amo muitão!");
+        System.out.println("Melina te amo muuuuuitão!");
         System.out.println("Gatinha do Papai!");
     }
 }
