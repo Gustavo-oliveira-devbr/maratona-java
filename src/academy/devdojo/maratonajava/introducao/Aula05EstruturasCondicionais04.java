@@ -8,12 +8,12 @@ public class Aula05EstruturasCondicionais04 {
         double thirdTrack = 49.50 / 100;
         double taxAmount;
         if (annualSalary <= 34712) {
-            annualSalary = annualSalary * firstTrack;
+            taxAmount = annualSalary * firstTrack;
         }else if (annualSalary >= 34713 && annualSalary <= 68507) {
-            annualSalary = annualSalary * secondTrack;
+            taxAmount = annualSalary * secondTrack;
         }else {
-            annualSalary = annualSalary * thirdTrack;
+            taxAmount = annualSalary * thirdTrack;
         }
-        System.out.println("Total annual tax amount: "+annualSalary);
+        System.out.println("Total annual tax amount: "+taxAmount);
     }
 }
