@@ -45,5 +45,26 @@ public class Aula04Operadores {
         float playstationPrice = 5000F;
         boolean isPlaystationFiveAffordable = totalCheckingAccountBalance > playstationPrice || totalCheckingSavingsAccount > playstationPrice;
         System.out.println("isPlaystationFiveAffordable "+isPlaystationFiveAffordable);
+
+        // Outros operadores de atribuição: = += -= *= /= %=
+
+        double bonus = 1800;
+        bonus += 1000;
+        // Serve para simplificar bonus = bonus + 1000;
+        bonus -= 1000;
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        int accountant = 0;
+        accountant += 1; // Contador recebe Contador + 1
+        accountant++; //serve para abreviar ainda mais funciona tanto com + quanto com -
+        accountant--;
+        ++accountant;
+        --accountant;
+        int accountant2 = 0;
+        System.out.println(accountant2++); // Dessa maneira primeiro é executada a impressão então o valor fica zerado
+        System.out.println(++accountant2); // Assim primeiro é incrementado e valor e depois impresso então temos um valor
     }
 }
