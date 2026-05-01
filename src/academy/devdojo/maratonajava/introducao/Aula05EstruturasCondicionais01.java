@@ -1,9 +1,11 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula05EstruturasCondicionais {
+public class Aula05EstruturasCondicionais01 {
     public static void main(String[] args) {
         int age = 15;
         boolean isAuthorizedPurchaseDrinks = age >= 18;
+        // Começaremos só com if
+
         if (age >= 18) {
             System.out.println("authorized to purchase alcoholic beverages");
         }
@@ -21,5 +23,17 @@ public class Aula05EstruturasCondicionais {
         if (!isAuthorizedPurchaseDrinks){
             System.out.println("Not permitted to purchase alcoholic beverages");
         }
+
+        // Aqui adicionei o else
+
+        if (isAuthorizedPurchaseDrinks) {
+            System.out.println("authorized to purchase alcoholic beverages");
+        }else{
+            System.out.println("Not permitted to purchase alcoholic beverages");
+        }
+
+        // Só se pode ter else se tiver um if
+
+
     }
 }
