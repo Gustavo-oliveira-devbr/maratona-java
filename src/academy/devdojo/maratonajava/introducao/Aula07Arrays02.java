@@ -8,9 +8,9 @@ public class Aula07Arrays02 {
         // boolean = false
         // String = null
 
-        String[] nomes = new String[3];
-        System.out.println(nomes[0]);
-        System.out.println(nomes[1]);
-        System.out.println(nomes[2]);
+        String[] names = new String[3];
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
     }
 }
