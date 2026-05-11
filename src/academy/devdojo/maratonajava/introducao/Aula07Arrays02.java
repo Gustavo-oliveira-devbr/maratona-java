@@ -9,8 +9,13 @@ public class Aula07Arrays02 {
         // String = null
 
         String[] names = new String[3];
-        System.out.println(names[0]);
-        System.out.println(names[1]);
-        System.out.println(names[2]);
+        names[0] = "Melina";
+        names[1] = "CR7";
+        names[2] = "Zoro";
+        names[2] = "Luffy";
+
+        for (int i = 0; i < 4; i++) {
+            System.out.println(names[i]);
+        }
     }
 }
